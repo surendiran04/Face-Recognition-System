@@ -49,15 +49,15 @@ This is a full-stack face recognition attendance system with real-time video pro
    npm install
 
 
-4.Run the React app:
+ 4. Run the React app:
 
   ```bash
    npm install
 
+``` 
 ---
-
-```   
-#Backend Setup (Google Colab)
+  
+# Backend Setup (Google Colab)
 Open your Google Colab notebook and upload the following files:
 
 app.py – Contains the Flask API routes.
