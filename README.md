@@ -42,17 +42,18 @@ This is a full-stack face recognition attendance system with real-time video pro
 2. Create a .env file inside the frontend directory and add your backend URL:
    ```bash
     VITE_BACKEND_URL=https://your-ngrok-url.ngrok.io
-3.Install dependencies
-     ```bash
-      npm install
-      
+   
+3.Install dependencies:
+```bash
+    npm install
+     
 4.Run the React app:
-       ```bash
-        npm run dev
+  ```bash
+  npm run dev
 
-        <hr>
+---
         
-Backend Setup (Google Colab)
+#Backend Setup (Google Colab)
 Open your Google Colab notebook and upload the following files:
 
 app.py – Contains the Flask API routes.
@@ -60,6 +61,8 @@ app.py – Contains the Flask API routes.
 db.py – Contains MongoDB Atlas connection and collections.
 
 face_recognition.py – Handles face registration and recognition using ArcFace and Google Drive
+
+---
 
 📁 Folder Structure
  ```bash
